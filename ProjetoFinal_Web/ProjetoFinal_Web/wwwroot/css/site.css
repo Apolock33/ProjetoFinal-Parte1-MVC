@@ -1,0 +1,94 @@
+@font-face{
+    src:url("../Fontes/cronus-italic.otf");
+    font-family: "Cronus";
+}
+
+html {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    
+  margin-bottom: 60px;
+  
+}
+
+.navbar-brand{
+    width:30%;
+}
+.nav-link:hover {
+    color: #028C22 !important;
+}
+ .nav-link {
+        font-family:Montserrat;
+        font-weight:normal;
+        color: #009BE0 !important;
+    }
+
+header {
+    font-family: Montserrat;
+    font-weight: normal;
+    color: #009BE0 !important;
+    background-size:cover;
+}
+
+.Logomarca{
+    width:100px;
+}   
+
+.corpo{
+    margin-top:50px;
+}
+
+.corpo-home{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.titulo-viva {
+    font-family: "Cronus";
+    font-weight: bold;
+    font-size: 70px;
+    color: #009BE0;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.texto-viva {
+    text-align: justify;
+    width: 100%;
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: normal;
+    color: #009BE0;
+}
+
+.imagem-front {
+    margin-top:100px;
+    width: 45%;
+    margin-left:100px;
+}
+
+.botao-s {
+    font-family:Montserrat;
+    text-decoration:none;
+    background-color: #009BE0;
+    color:#ffffff;
+    border-radius:5px;
+    padding:10px;
+    width:50%;
+    text-decoration:none;
+}
