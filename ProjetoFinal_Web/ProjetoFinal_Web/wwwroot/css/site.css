@@ -80,6 +80,7 @@ header {
     margin-top:100px;
     width: 45%;
     margin-left:100px;
+    margin-bottom:60px;
 }
 
 .botao-s {
@@ -91,4 +92,98 @@ header {
     padding:10px;
     width:50%;
     text-decoration:none;
+}
+
+.noticias-titulo {
+    font-family: "Cronus";
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: bold;
+    justify-content: center !important;
+    display: flex;
+    background: #009BE0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    border: 10px 10px 10px 10px blue;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.titulo-1 {
+    font-family: "Cronus";
+    font-size: 50px;
+    font-weight: bold;
+    color: #009BE0;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.icons {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.text-left {
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.text-right {
+    text-align: right;
+    font-family: Montserrat;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    align-items: center;
+    max-height: 1010px;
+    min-height: 500px;
+}
+
+.image {
+    text-align: center;
+    width:70%;
+    border-radius: 120px;
+    padding: 15px;
+}
+
+.name {
+    text-align: center;
+    font-family: Cronus;
+    color: #009BE0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-family: Montserrat;
+    text-align: justify;   
+}
+
+h2 {
+    color: #009BE0;
+    font-weight:bold;
 }

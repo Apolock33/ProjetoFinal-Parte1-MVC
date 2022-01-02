@@ -1,7 +1,0 @@
-{
-  "name": "projeto-recode",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
