@@ -1,0 +1,63 @@
+﻿input {
+    padding: 10px;
+}
+
+    input:focus {
+        outline: none;
+        border: 1px solid rgba(8, 236, 8, 0.74);
+    }
+
+.container-cadastro {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+form {
+    margin-top: 35px;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+.top-form {
+    display: inline-block;
+}
+
+    .top-form label {
+        display: block;
+    }
+
+    .top-form input {
+        max-width: 400px;
+    }
+
+.middle-form {
+    margin: 20px 80px;
+    text-align: center;
+}
+
+    .middle-form > div {
+        margin-top: 10px;
+    }
+
+    .middle-form input {
+        max-width: 900px;
+    }
+
+.btn {
+    text-align: center;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.267);
+    background-color: rgb(228, 226, 226);
+    color: black;
+}
