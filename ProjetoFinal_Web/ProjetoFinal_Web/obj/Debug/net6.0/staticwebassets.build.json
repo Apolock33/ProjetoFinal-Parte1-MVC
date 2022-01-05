@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CykBhDMhVGvIWAeoktyfaySBF0SHOwqmiu9m/mIUOB4=",
+  "Hash": "t7tElASL8GlTpYDDeFiJkj87bpy12SfTs4GWtkrPhHo=",
   "Source": "ProjetoFinal_Web",
   "BasePath": "_content/ProjetoFinal_Web",
   "Mode": "Default",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Icones\\lupa.png"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\005_1.jpg",
+      "SourceId": "ProjetoFinal_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\",
+      "BasePath": "_content/ProjetoFinal_Web",
+      "RelativePath": "Imagens/005_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\005_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\2CQL2BQDKJPH5RA6S5NXYVRWHI.jpg",
+      "SourceId": "ProjetoFinal_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\",
+      "BasePath": "_content/ProjetoFinal_Web",
+      "RelativePath": "Imagens/2CQL2BQDKJPH5RA6S5NXYVRWHI.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\2CQL2BQDKJPH5RA6S5NXYVRWHI.jpg"
     },
     {
       "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\40014756.jpg",
@@ -340,6 +374,23 @@
       "OriginalItemSpec": "wwwroot\\Imagens\\Erica.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\imagemcard1.jpg",
+      "SourceId": "ProjetoFinal_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\",
+      "BasePath": "_content/ProjetoFinal_Web",
+      "RelativePath": "Imagens/imagemcard1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\imagemcard1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\Imagemcarrossel1.jpg",
       "SourceId": "ProjetoFinal_Web",
       "SourceType": "Discovered",
@@ -440,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\Paraolimpicos_CT_Projeto.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\parre_mundiallyon-washington-alves-cpb-mpix.jpg",
+      "SourceId": "ProjetoFinal_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\",
+      "BasePath": "_content/ProjetoFinal_Web",
+      "RelativePath": "Imagens/parre_mundiallyon-washington-alves-cpb-mpix.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\parre_mundiallyon-washington-alves-cpb-mpix.jpg"
     },
     {
       "Identity": "C:\\Users\\Carlos\\Desktop\\ProjetoFinal-RecodePro\\ProjetoFinal-RecodePro\\ProjetoFinal_Web\\ProjetoFinal_Web\\wwwroot\\Imagens\\Patrick.jpeg",

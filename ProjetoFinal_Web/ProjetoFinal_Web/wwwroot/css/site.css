@@ -234,7 +234,7 @@ h2 {
 .btn{
     font-family:Montserrat;
 }
-noticias{
+.noticias{
     padding-top:0px;
 }
 .carousel{
@@ -304,4 +304,14 @@ input {
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.267);
     background-color: #009BE0;
     color: white;
+}
+.modal-text {
+    padding:10px;
+}
+.modal-title {
+    font-family: "Cronus";
+    text-align:center;
+    font-size: 40px;
+    font-weight:bold;
+    color: #009BE0;
 }
