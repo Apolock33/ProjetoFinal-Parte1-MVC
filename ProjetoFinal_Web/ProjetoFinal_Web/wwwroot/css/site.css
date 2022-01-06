@@ -305,13 +305,14 @@ input {
     background-color: #009BE0;
     color: white;
 }
+
 .modal-text {
     padding:10px;
 }
 .modal-title {
     font-family: "Cronus";
     text-align:center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight:bold;
     color: #009BE0;
 }
