@@ -3,9 +3,67 @@
     font-family: "Cronus";
 }
 
+
 html {
   font-size: 10px;
 }
+
+@media(max-width:650px) {
+    .menu {
+        width: 100%;
+        display: fixed;
+    }
+
+    .row {
+        text-align: center;
+        margin: 10px;
+    }
+    body{
+        margin:20px;
+    }
+
+    .imagem-front {
+        display: none;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .titulo-1 {
+        text-align: center;
+    }
+
+    .container-card {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content:center !important;
+    }
+
+    .container-cadastro{
+        width:80%;
+    }
+}
+@media(min-width:651px){
+    .container-card {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center !important;
+    }
+}
+@media(min-width:951px){
+    .container-card {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center !important;
+    }
+}
+
+
+
 
 @media (min-width: 768px) {
   html {
@@ -228,8 +286,10 @@ h2 {
 .imgcard {
     padding-bottom:20px;
 }
-.card-title{
-    font-size:25px;
+.card-title {
+    font-weight:bold;
+    font-size: 25px;
+    color: #009BE0;
 }
 .btn{
     font-family:Montserrat;
