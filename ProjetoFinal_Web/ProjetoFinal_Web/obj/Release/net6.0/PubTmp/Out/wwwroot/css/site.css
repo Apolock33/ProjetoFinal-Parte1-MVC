@@ -1,0 +1,378 @@
+@font-face{
+    src:url("../Fontes/cronus-italic.otf");
+    font-family: "Cronus";
+}
+
+
+html {
+  font-size: 10px;
+}
+
+@media(max-width:650px) {
+    .menu {
+        width: 100%;
+        display: fixed;
+    }
+
+    .row {
+        text-align: center;
+        margin: 10px;
+    }
+    body{
+        margin:20px;
+    }
+
+    .imagem-front {
+        display: none;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .titulo-1 {
+        text-align: center;
+    }
+
+    .container-card {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content:center !important;
+    }
+
+    .container-cadastro{
+        width:80%;
+    }
+}
+@media(min-width:651px){
+    .container-card {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center !important;
+    }
+}
+@media(min-width:951px){
+    .container-card {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center !important;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    
+  margin-bottom: 60px;
+  
+}
+
+.navbar-brand{
+    width:70%;
+}
+.nav-link:hover {
+    color: #ffffff !important;
+    background-color: #009BE0;
+    padding:5px;
+    border-radius:5px;
+}
+ .nav-link {
+        margin:10px;
+        font-family:Montserrat;
+        font-weight:bold;
+        color: #009BE0 !important;
+    }
+
+header {
+    font-family: Montserrat;
+    font-weight: normal;
+    color: #009BE0 !important;
+    background-size:cover;
+}
+ 
+.Logomarca{
+    width:100px;
+}   
+
+
+.corpo-home{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.titulo-viva {
+    font-family: "Cronus";
+    font-weight: bold;
+    font-size: 70px;
+    color: #009BE0;
+    width: 100%;
+    display: inline-block;
+
+
+}
+
+.texto-viva {
+    text-align: justify;
+    width: 100%;
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: normal;
+    color: #009BE0;
+}
+
+.imagem-front {
+    margin-top:100px;
+    width: 45%;
+    margin-left:100px;
+    margin-bottom:30px;
+}
+
+.botao-s {
+    font-family:Montserrat;
+    text-decoration:none;
+    background-color: #009BE0;
+    color:#ffffff;
+    border-radius:5px;
+    padding:10px;
+    width:50%;
+    margin-bottom:30px;
+    text-decoration:none;
+}
+
+.noticias-titulo {
+    font-family: "Cronus";
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    justify-content: center !important;
+    display: flex;
+    background: #009BE0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    border: 10px 10px 10px 10px blue;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.titulo-1 {
+    font-family: "Cronus";
+    font-size: 50px;
+    font-weight: bold;
+    color: #009BE0;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.icons {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.text-left {
+    text-align: left;
+    font-family: Montserrat;
+    color: #009BE0;
+}
+
+.text-right {
+    text-align: right;
+    font-family: Montserrat;
+    color: #009BE0;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    align-items: center;
+    max-height: 1010px;
+    min-height: 600px;
+}
+
+.image {
+    text-align: center;
+    width:70%;
+    border-radius: 300px;
+    padding: 15px;
+}
+
+.name {
+    text-align: center;
+    font-family: Cronus;
+    color: #009BE0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-family: Montserrat;
+    text-align: justify;   
+}
+
+h2 {
+    color: #009BE0;
+    font-weight:bold;
+}
+
+.row {
+    padding-top:100px;
+    justify-content:center;
+    display: flex;
+}
+.card-text{
+    padding:10px;
+    font-size:10px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50,50,50,0.22);
+    padding:0;
+    padding-bottom:10px;
+    margin:20px;
+    width: 25%;
+    min-height:47vh !important;
+    transition: all 0.3s ease-out;
+    font-family:"Cronus";
+    
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+.image {
+    max-width: 260px;
+    max-height: 2600px;
+}
+
+.imgcard {
+    padding-bottom:20px;
+}
+.card-title {
+    font-weight:bold;
+    font-size: 25px;
+    color: #009BE0;
+}
+.btn{
+    font-family:Montserrat;
+}
+.noticias{
+    padding-top:0px;
+}
+.carousel{
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    max-width:50%;
+}
+.titulo-cadastro {
+    font-family: "Cronus";
+    font-size: 30pt;
+    font-weight: bold;
+    color: #009BE0;
+}
+input {
+    padding: 10px;
+    margin: 3px;
+}
+
+    input:focus {
+        outline: none;
+        border: 1px solid rgba(8, 236, 8, 0.74);
+    }
+
+.container-cadastro {
+
+    max-width: 600px;
+    height:auto;
+    margin: 150px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 40px;
+}
+
+.top-form {
+    display:block;
+
+}
+    .top-form > div {
+        margin-top: 10px;
+    }
+
+    .top-form label {
+        display: block;
+    }
+
+    .top-form input {
+        max-width: 400px;
+    }
+
+.middle-form {
+    margin: 20px ;
+    text-align: center;
+}
+
+    .middle-form input {
+        display:inline-block;
+        max-width: 900px;
+    }
+
+.btn-b {
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.267);
+    background-color: #009BE0;
+    color: white;
+}
+
+.modal-text {
+    padding:10px;
+}
+.modal-title {
+    font-family: "Cronus";
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold;
+    color: #009BE0;
+}
