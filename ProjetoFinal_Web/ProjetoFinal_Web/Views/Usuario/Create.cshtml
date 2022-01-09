@@ -1,0 +1,35 @@
+﻿@model ProjetoFinal_Web.Models.Usuario
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+<div class="container-cadastro">
+    <h1 class="titulo-cadastro">Cadastro</h1>
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="top-form">
+                <input asp-for="Nome" placeholder="Nome" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="top-form">
+                <input asp-for="Sobrenome" placeholder="Sobrenome" />
+                <span asp-validation-for="Sobrenome" class="text-danger"></span>
+            </div>
+        <div class="middle-form">
+            <div class="top-form">
+                <input asp-for="Email" placeholder="E-mail" type="email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="top-form">
+                <input asp-for="Senha" placeholder="Senha" type="password" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+        </div>
+        <input type="submit" value="Cadastrar" class="btn-b" />
+    </form>
+</div>
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}
