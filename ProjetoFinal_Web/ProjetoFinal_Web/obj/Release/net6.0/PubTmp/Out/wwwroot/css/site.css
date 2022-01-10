@@ -12,6 +12,7 @@ html {
     .menu {
         width: 100%;
         display: fixed;
+        font-size:30px;
     }
 
     .row {

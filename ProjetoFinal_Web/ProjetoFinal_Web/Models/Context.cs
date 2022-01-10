@@ -6,7 +6,7 @@ namespace ProjetoFinal_Web.Models
     {
         public Context(DbContextOptions<Context> options): base(options)
         {
-
+            Database.EnsureCreated();
         }
         public DbSet <Usuario> Usuario { get; set; }
     }
